@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom Path</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="mainCard">
+            <div class="header">
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                    <span id="stepIndicator">Step 1/10</span>
+                </div>
+                <div class="understanding">
+                    <span id="understandingLevel">0%</span>
+                </div>
+            </div>
+
+            <div class="image-container" id="stepImage">
+                <!-- Image will be added here -->
+            </div>
+
+            <h2 id="stepTitle" class="title"></h2>
+            <p id="challenge" class="challenge"></p>
+
+            <div id="feedback" class="feedback hidden"></div>
+
+            <div id="options" class="options">
+                <!-- Options will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <div class="card completion-card hidden" id="completionCard">
+            <div class="star-icon">★</div>
+            <h1>Journey Complete!</h1>
+            <p>You have walked the path of freedom!</p>
+            <p id="finalUnderstanding">Understanding: 0%</p>
+            <button id="restartButton" class="restart-button">Walk the Path Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
