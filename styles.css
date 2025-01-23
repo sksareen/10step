@@ -42,25 +42,25 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 600px;
     background: var(--primary-gradient);
     color: var(--text-color);
-    padding: 1rem;
+    /* padding: 1rem; */
     transition: all 0.5s ease;
 }
 
 .container {
     width: 100%;
     max-width: 800px;
-    /* margin: 0 auto; */
-    height: 100vh;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    height: 94vh;
 }
 
 .card {
@@ -377,7 +377,7 @@ button.clicked {
 }
 
 .top-controls {
-    position: absolute;
+    position: fixed;
     top: 1rem;
     left: 50%;
     transform: translateX(-50%);
