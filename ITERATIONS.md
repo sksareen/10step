@@ -66,3 +66,11 @@ what didn't:
 - sleep toggle is a bit too narrow, it shoud be squared
 - journey counter icon should be different
 - fonts should be spectral
+
+
+
+# iteration 6 - mobile
+- no sound
+- sparkle animations look stupid
+- prompts are too abstraxt they ahoild be more real
+- gentle transition animations please
